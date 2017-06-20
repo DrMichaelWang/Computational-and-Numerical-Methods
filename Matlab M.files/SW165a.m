@@ -1,0 +1,9 @@
+ x=linspace(-1,1,6)
+ y=[0,0,0,1,1,1]
+ xx=linspace(-1,1) 
+ yy=spline(x,y,xx) 
+ x1=linspace(-1,0)
+ x2=linspace(0,1)
+ y1=0
+ y2=1
+ plot(x,y,'o',xx,yy,x1,y1,'--',x2,y2,'--')
